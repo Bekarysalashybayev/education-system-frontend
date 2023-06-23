@@ -1,11 +1,41 @@
-@import "./colors.scss";
+// text font size
+$text-1-fs: 15px;
+$text-2-fs: 16px;
+$text-3-fs: 17px;
+$text-4-fs: 18px;
+$text-5-fs: 19px;
+$text-6-fs: 20px;
 
-@mixin t1{
-  font-size: 15px;
-  line-height: 1.2;
+// font weight
+$normal: 400;
+$medium: 500;
+$bolder: 550;
+$bold: 600;
+
+// text mixins
+@mixin t1 {
+  font-size: $text-1-fs;
 }
-@mixin i1{
-  font-size: 16px;
-  line-height: 1.2;
+
+@mixin t2 {
+  font-size: $text-2-fs;
 }
+
+@mixin t3 {
+  font-size: $text-3-fs;
+}
+
+@mixin t4 {
+  font-size: $text-6-fs;
+}
+
+@mixin t5 {
+  font-size: $text-6-fs;
+}
+
+@mixin t6 {
+  font-size: $text-6-fs;
+}
+
+
 

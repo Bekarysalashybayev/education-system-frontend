@@ -55,11 +55,10 @@ const onInput = (e: Event) => {
 @use "@/assets/scss/variables.scss" as *;
 
 .input-wrapper {
-    --border-radius: 10px;
 
-    @include i1;
+    @include t1;
     border: 1px solid $color-main;
-    border-radius: var(--border-radius);
+    border-radius: $input-round-1;
     padding: 10px;
     overflow: hidden;
 
@@ -80,7 +79,7 @@ const onInput = (e: Event) => {
     input {
         border: 0;
         background-color: transparent;
-        border-radius: var(--border-radius);
+        border-radius: $input-round-1;
         font: inherit;
 
         &:focus {

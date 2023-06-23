@@ -1,8 +1,13 @@
+@import "./colors.scss";
 @import "./typography";
 
 // button style variables
 $button-round-1: 10px;
-$button-round-1: 20px;
+$button-round-2: 20px;
 $button-padding-default: 5px 15px;;
 $button-padding-large: 10px 20px;
 $button-padding-small: 5px 10px;
+
+
+// input style variables
+$input-round-1: 10px;
